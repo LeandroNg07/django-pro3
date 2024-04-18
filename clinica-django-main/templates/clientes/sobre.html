@@ -1,0 +1,264 @@
+{% extends "accounts/index.html" %}
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Sobre Nós</title>
+</head>
+
+<body>
+    <!-- <header id="header-op">
+        <img class="logo" src="./image/logo-pega.png" alt="">
+
+    </header> -->
+    <div class="div-header">
+        <header class="header_home" id="header-op">
+        <nav class="navegacao">
+            <div class="header_direita">
+                <a class="logo_header" href="./index.html"><img class="logo" src="./image/logo_pega_visao.jpg"
+                        alt="Logo Clínica Pega Visão"></a>
+                <a href="#" style="text-decoration: none; color: #848484;">Sobre</a>
+                <a href="#" style="text-decoration: none; color: #848484;">Serviços</a>
+                <a href="#" style="text-decoration: none; color: #848484;">Contato</a>
+            </div>
+            <a class="login" style="text-decoration: none; color: #848484;" href="./EntreAqui/login.html">ENTRE AQUI</a>
+        </nav>
+    </header>
+    </div>
+    
+    <main>
+        <div id="sobre"><!--SOBRE-->
+            <section class="section-primary" id="section-primary-op">
+                <img class="image-primary" src="./image/section-primary1-image.png" alt="">
+            </section>
+
+            <section class="section-estrutura" style="height: 100vh;" id="section-estrutura-op">
+
+                <div class="div-estrutura">
+                    <h1 class="h1-estrutura">Nossa Estrutura</h1>
+                    <p class="p-estrutura">A Clínica Pega Visão, é referência no tratamento oftalmológico,
+                        especialmente,
+                        nas áreas de diagnóstico, cirurgia e terapia.</p>
+                    <p class="p-estrutura">Localiza-se na cidade de São Paulo, na Avenida Sapopemba, é formada por uma
+                        equipe de profissionais altamente qualificados e devidamente credenciados junto às sociedades e
+                        instituições de classe nacionais e internacionais.</p>
+                    <p class="p-estrutura">Dispõe das condições ideais para atender com excelência o público, desde a
+                        infância até a terceira idade.</p>
+                    <p class="p-estrutura">Por manter convênios com diversos planos de saúde pode realizar um
+                        atendimento
+                        amplo e diversificado à população.</p>
+                </div>
+                <div class="images-estrutura">
+                    <div class="div-images">
+                        <img src="./image/imagem1.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem2.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem3.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem4.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem5.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem6.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem7.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem8.png" alt="" onclick="showCarrosel();">
+                        <img src="./image/imagem9.png" alt="" onclick="showCarrosel();">
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="section-responsabilidade" id="section-responsabilidade-op">
+                <div class="div-responsabilidade">
+                    <h2 class="section-resp-h2">Responsabilidade social</h2>
+
+                    <div class="div-primary-resp">
+                        <div class="div-image"><img src="./image/imagem1-responsa.png" alt=""></div>
+                        <div class="subdiv-resp">
+                            <h3 class="section-resp-h3">Projeto Nossas Crianças ABRINQ</h3>
+                            <p class="p-estrutura">Desde 1998, a Clínica Pega Visão, por meio de um convênio de
+                                cooperação
+                                com a Fundação Abrinq, realiza o atendimento oftalmológico das crianças e adolescentes
+                                assistidos pela ONG.</p>
+                        </div>
+                    </div>
+                    <div class="div-second-resp">
+                        <div class="div-image"><img src="./image/imagem2-responsa.png" alt=""></div>
+                        <div class="subdiv-resp">
+                            <h3 class="section-resp-h3">Preservação de espaços públicos</h3>
+                            <p class="p-estrutura">Desde 2001, a Clínica Pega Visão, em parceria com a Prefeitura de São
+                                Paulo, é responsável pela preservação e restauração das duas praças próximas à clínica.
+                                Uma
+                                delas é a Praça Shain Saliby, altura do número 630 da Avenida Sapopemba. A outra é a
+                                Praça
+                                do Vinho localizado entre o jardim imperador e a Rua Travessa Michel Lalande. Os espaços
+                                públicos preservados pela clínica contribuem para a harmonia e a beleza da zona leste da
+                                cidade de São Paulo, além de assegurar a presença de espaços verdes em meio às
+                                construções
+                                da capital.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <footer class="footer-main" id="footer-op">
+                <div class="footer-primary">
+                    <div class="fut">
+                        <h4 class="footer-h4">Nosso Endereço:</h4>
+                        <p class="p-fut">av.sapopemba, 624 - São Mateus, São Paulo - SP, 04027-000 </p>
+                        <p class="p-fut">CNPJ:12.345.678/0001-00</p>
+                        <img src="./image/img-pegavisao.png" alt="">
+                    </div>
+                    <div class="fut">
+                        <h4 class="footer-h4">Contatos:</h4>
+                        <p class="p-fut">E-mail: cpv@pegavisao.com.br</p>
+                        <p class="p-fut">TEL: (00) 0000-0000</p>
+                        <p class="p-fut">Fale conosco</p>
+                        <p class="p-fut">WhatsApp: (00) 00000-0000</p>
+
+                    </div>
+                    <div class="fut">
+                        <h4 class="footer-h4">Serviços On-line:</h4>
+                        <p class="p-fut">Retire seus Exames</p>
+                        <p class="p-fut">Área do Médico </p>
+                        <p class="p-fut">Agende sua Consulta</p>
+                        <p class="p-fut">CPV In Company</p>
+                    </div>
+                    <div class="fut">
+                        <h4 class="footer-h4">Redes Sociais</h4>
+                        <p class="p-redes-sociais">
+                            <img src="./image/face.png" alt="">
+                            <img src="./image/instagram.png" alt="">
+                        </p>
+                        <p class="p-fut">Politica de Privacidade</p>
+                        <p class="p-fut">Declaração de Cookies</p>
+                    </div>
+                </div>
+                <div class="footer-second">
+                    <p>© 2024 - Clínica Pega Visão - Todos os direitos reservados - Desenvolvido por Enzo, Fabio e
+                        Leandro</p>
+                </div>
+            </footer>
+        </div> <!--SOBRE-->
+
+        <div class="hide-carrossel animate" id="div-carrossel">
+            <!-- Carousel -->
+            <div class="main-carrossel">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./image/IMO-Clinica.jpg" alt="Los Angeles" class="d-block" style="width:120%;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Consultorio-2.jpg" alt="Chicago" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Consultorio-3.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Consultorio.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Equipamentos.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Exterior.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Garagem-subsolo.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/IMO-Recepcao.jpg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/FOTO-PAGINA-QUEM-SOMOS-1024x683.jpeg" alt="New York" class="d-block" style="width:120%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+
+                <div class="div-button-fechar">
+                    
+                        <img src="./image/fechar.png" alt="" onclick="hideCarrosel()" width="10%">
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script>
+    function showCarrosel() {/*** FUNCTION APARECER CARROSSEL*****/
+
+        let x = document.getElementById("div-carrossel");
+
+        let a = document.getElementById("header-op");/*** ADD OPACIDADE*****/
+        let b = document.getElementById("section-primary-op");/*** ADD OPACIDADE*****/
+        let c = document.getElementById("section-estrutura-op");/*** ADD OPACIDADE*****/
+        let d = document.getElementById("section-responsabilidade-op");/*** ADD OPACIDADE*****/
+        let e = document.getElementById("footer-op");/*** ADD OPACIDADE*****/
+        let f = document.getElementById("sobre"); /*** ADD OPACIDADE*****/
+
+        //  x.setAttribute("class", "div-carrossel2"); 
+        x.classList.add("show-carrossel"); /*** ADD APARECER CARROSSEL*****/
+        x.classList.remove("hide-carrossel");/*** REMOVE APARECER CARROSSEL*****/
+
+        a.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+        b.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+        c.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+        d.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+        e.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+        f.classList.add("opacidade50");/*** ADD OPACIDADE*****/
+
+    }
+    function hideCarrosel() {/*** REMOVER CARROSSEL BOTAO*****/
+
+        //  document.getElementById("img-carrossel").setAttribute("class", "div-carrossel");
+        let x = document.getElementById("div-carrossel");
+
+        let a = document.getElementById("header-op");/*** REMOVER OPACIDADE BOTAO*****/
+        let b = document.getElementById("section-primary-op");/*** REMOVER OPACIDADE BOTAO*****/
+        let c = document.getElementById("section-estrutura-op");/*** REMOVER OPACIDADE BOTAO*****/
+        let d = document.getElementById("section-responsabilidade-op");/*** REMOVER OPACIDADE BOTAO*****/
+        let e = document.getElementById("footer-op");
+        let f = document.getElementById("sobre"); /*** REMOVE OPACIDADE*****/
+
+        x.classList.remove("show-carrossel");
+        x.classList.add("hide-carrossel");
+
+        a.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+        b.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+        c.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+        d.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+        e.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+        f.classList.remove("opacidade50");/*** REMOVER OPACIDADE BOTAO*****/
+    }
+   
+</script>
+
+</html>
